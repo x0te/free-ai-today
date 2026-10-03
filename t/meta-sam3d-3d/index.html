@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Meta Segment Anything Playground (SAM 3D) — SAM 3D Objects, SAM 3D Body 무료 사용법 · 오늘의 무료 AI</title>
+<meta name="description" content="사진 1장 → 물체·사람을 텍스처 입힌 3D로 복원, 웹 데모 무료 (한도 비공개)">
+<link rel="canonical" href="https://free-ai.today/t/meta-sam3d-3d/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="오늘의 무료 AI">
+<meta property="og:title" content="Meta Segment Anything Playground (SAM 3D) — SAM 3D Objects, SAM 3D Body 무료 사용법 · 오늘의 무료 AI">
+<meta property="og:description" content="사진 1장 → 물체·사람을 텍스처 입힌 3D로 복원, 웹 데모 무료 (한도 비공개)">
+<meta property="og:url" content="https://free-ai.today/t/meta-sam3d-3d/">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:image" content="https://free-ai.today/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="오늘의 무료 AI — 지금 무료로 쓸 수 있는 생성형 AI, 매일 정리">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Meta Segment Anything Playground (SAM 3D) — SAM 3D Objects, SAM 3D Body 무료 사용법 · 오늘의 무료 AI">
+<meta name="twitter:description" content="사진 1장 → 물체·사람을 텍스처 입힌 3D로 복원, 웹 데모 무료 (한도 비공개)">
+<meta name="twitter:image" content="https://free-ai.today/og.png">
+<script>try{var m=localStorage.getItem('theme');if(m==='light'||m==='dark')document.documentElement.dataset.theme=m}catch(e){}</script>
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0e0e0e" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/icon-512.png" type="image/png" sizes="512x512">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="오늘의 무료 AI 업데이트" href="/feed.xml">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="site-head">
+  <div class="wrap head-top">
+    <a class="brand" href="/"><span class="brand-dot" aria-hidden="true"></span>오늘의 무료 AI</a>
+    <nav class="head-links">
+      <a href="/models/">모델별</a>
+      <a href="/updates/">업데이트</a>
+      <a href="/board/">제보·질문</a>
+      <button type="button" class="theme-toggle" id="theme-toggle" aria-label="라이트/다크 테마 전환" title="테마 전환">
+        <svg class="i-moon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+        <svg class="i-sun" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+    </nav>
+  </div>
+  <nav class="wrap cat-nav" aria-label="카테고리">
+    <a href="/">전체</a><a href="/c/image/">이미지</a><a href="/c/video/">영상</a><a href="/c/music/">음악</a><a href="/c/voice/">음성</a><a href="/c/chat/">챗봇</a><a href="/c/code/">코딩</a><a href="/c/3d/" aria-current="page">3D·기타</a>
+  </nav>
+</header>
+
+<main class="wrap">
+<article class="post">
+  <nav class="crumbs"><a href="/">홈</a><span>/</span><a href="/c/3d/">3D·기타</a></nav>
+  <header class="post-head">
+    <img class="logo" src="/logos/meta-ai.webp" alt="Meta Segment Anything Playground (SAM 3D) 로고" width="44" height="44" loading="lazy">
+    <div>
+      <h1>Meta Segment Anything Playground (SAM 3D)</h1>
+      <p class="muted">Meta · <span class="tag tag-line">공식</span></p>
+    </div>
+  </header>
+  <ul class="model-chips"><li>SAM 3D Objects</li><li>SAM 3D Body</li></ul>
+  <p class="headline">사진 1장 → 물체·사람을 텍스처 입힌 3D로 복원, 웹 데모 무료 (한도 비공개)</p>
+  
+  <dl class="facts"><div><dt>무료 한도</dt><dd>공식 사용 한도 비공개 (웹 데모로 무료 제공)</dd></div><div><dt>충전 주기</dt><dd>불명</dd></div><div><dt>워터마크</dt><dd>불명</dd></div><div><dt>상업적 이용</dt><dd>불가 (Segment Anything Playground는 개인·비상업 용도 전용 연구 데모. 오픈소스 모델 코드와 인체 파라메트릭 모델 MHR은 별도 라이선스)</dd></div><div><dt>가입</dt><dd>불명 (이용 전 Playground 약관 동의 필요, 로그인 버튼 있음)</dd></div><div><dt>한국 사용</dt><dd>불명</dd></div><div><dt>제약·메모</dt><dd>Playground의 &#39;Create 3D scenes&#39;(SAM 3D Objects)·&#39;Create 3D bodies&#39;(SAM 3D Body) 메뉴에서 이용 (2026-09 확인). 연구용 데모라 예고 없이 바뀌거나 지역 제한이 있을 수 있음. 로컬에서 쓰려면 GitHub의 sam-3d-objects, sam-3d-body 저장소를 이용</dd></div></dl>
+  <p><a class="cta" href="https://www.aidemos.meta.com/segment-anything" target="_blank" rel="noopener">Meta Segment Anything Playground (SAM 3D) 바로가기 ↗</a></p>
+  <h2>소개</h2>
+  <p>메타가 2025년 11월 공개한 SAM 3D는 일반 사진 속 물체나 장면(SAM 3D Objects), 사람의 자세와 체형(SAM 3D Body)을 3D로 재구성합니다. Segment Anything Playground에서 내 이미지를 올려 무료로 체험할 수 있고, 코드와 가중치는 GitHub에 공개되어 있습니다. 여러 물체가 섞인 실사 사진에서 특정 물체만 골라 3D로 만들 때 유용합니다.</p>
+  <h2>사용 방법</h2><ol class="steps"><li>aidemos.meta.com/segment-anything/gallery 에 접속해 약관에 동의합니다.</li><li>&#39;Create 3D scenes&#39;(물체·장면) 또는 &#39;Create 3D bodies&#39;(사람)를 고릅니다.</li><li>이미지를 업로드하고 3D로 만들 대상을 클릭해 선택한 뒤 결과를 확인합니다.</li></ol>
+  
+  <h2>Meta Segment Anything Playground (SAM 3D)의 다른 무료 기능</h2><ol class="rows rows-compact"><li class="row" data-flags="official" data-q="meta ai meta muse spark meta ai 무료: llama 대신 자체 신모델 muse spark로 교체, 기본 사용 무료(유료는 한도 확대) 로그인필요 이미지생성 지역제한가능 챗봇" data-score="0.532" data-updated="2026-09-29">
+  <a href="/t/meta-ai-chat/">
+    <img class="logo" src="/logos/meta-ai.webp" alt="Meta AI 로고" width="28" height="28" loading="lazy">
+    <div class="row-main">
+      <div class="row-title"><span class="hot" title="최근 30일 커뮤니티 언급 상위">🔥</span><strong>Meta AI</strong><span class="row-models">Muse Spark</span></div>
+      <div class="row-head">Meta AI 무료: Llama 대신 자체 신모델 Muse Spark로 교체, 기본 사용 무료(유료는 한도 확대)</div>
+      <div class="row-meta"><span class="tag">챗봇</span></div>
+    </div>
+    <time class="row-date" datetime="2026-09-29" title="마지막 변경 2026-09-29">09.29</time>
+  </a>
+</li><li class="row" data-flags="official daily" data-q="meta ai meta muse image meta imagine meta ai(muse image) → 무료 (하루 약 25장 보고, 2026년 5월 한국 출시) 매일충전 로그인필요 워터마크 한국어지원 이미지" data-score="0.062" data-updated="2026-09-30">
+  <a href="/t/meta-ai-image/">
+    <img class="logo" src="/logos/meta-ai.webp" alt="Meta AI 로고" width="28" height="28" loading="lazy">
+    <div class="row-main">
+      <div class="row-title"><strong>Meta AI</strong><span class="row-models">Muse Image · Meta Imagine</span></div>
+      <div class="row-head">Meta AI(Muse Image) → 무료 (하루 약 25장 보고, 2026년 5월 한국 출시)</div>
+      <div class="row-meta"><span class="tag">이미지</span><span>매일 충전</span><span>워터마크</span></div>
+    </div>
+    <time class="row-date" datetime="2026-09-30" title="마지막 변경 2026-09-30">09.30</time>
+  </a>
+</li><li class="row" data-flags="official" data-q="meta ai · vibes meta meta ai vibes meta ai 앱·vibes 앱 → ai 숏폼 영상 무료 생성·리믹스 (공식 한도 비공개) 완전무료 로그인필요 리믹스 숏폼 지역제한 영상" data-score="0.000" data-updated="2026-09-29">
+  <a href="/t/meta-vibes-video/">
+    <img class="logo" src="/logos/meta-ai.webp" alt="Meta AI · Vibes 로고" width="28" height="28" loading="lazy">
+    <div class="row-main">
+      <div class="row-title"><strong>Meta AI · Vibes</strong><span class="row-models">Meta AI Vibes</span></div>
+      <div class="row-head">Meta AI 앱·Vibes 앱 → AI 숏폼 영상 무료 생성·리믹스 (공식 한도 비공개)</div>
+      <div class="row-meta"><span class="tag">영상</span><span>워터마크</span></div>
+    </div>
+    <time class="row-date" datetime="2026-09-29" title="마지막 변경 2026-09-29">09.29</time>
+  </a>
+</li></ol>
+  <h2>출처</h2><ul class="sources"><li><span class="stype">공식</span><a href="https://www.aidemos.meta.com/segment-anything/gallery/" target="_blank" rel="noopener nofollow">Segment Anything Playground (Create 3D scenes / Create 3D bodies)</a><span class="muted"> · 2026-09</span></li><li><span class="stype">공식</span><a href="https://ai.meta.com/blog/sam-3d/" target="_blank" rel="noopener nofollow">SAM 3D (Meta AI Blog)</a><span class="muted"> · 2025-11-19</span></li><li><span class="stype">공식</span><a href="https://www.aidemos.meta.com/segment-anything" target="_blank" rel="noopener nofollow">Segment Anything Playground</a></li></ul>
+  <p class="verify">화제성: 최근 30일 커뮤니티 언급 약 0건 (디시 0 · 클리앙 0 · HN 0)<br>마지막 확인 2026-09-30 · 신뢰도 <span class="conf conf-low">확인 필요</span> · 등록 2026-09-29<br>무료 조건은 예고 없이 바뀝니다. 틀리거나 바뀐 정보는 아래 댓글로 알려주세요.</p>
+  <section class="comments"><h2>댓글 · 사용 후기</h2><div class="giscus-slot"
+  data-repo="x0te/free-ai" data-repo-id="R_kgDOUxlQBw"
+  data-category="Announcements" data-category-id="DIC_kwDOUxlQB84DGoCs"
+  data-mapping="specific" data-term="tool:meta-sam3d-3d" data-strict="1"
+  data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top"
+  data-lang="ko" data-loading="lazy"></div></section>
+</article>
+</main>
+<footer class="wrap site-foot">
+  <p>오늘의 무료 AI · 마지막 업데이트 2026-09-30 · 무료 정책은 수시로 바뀌니 사용 전 공식 페이지를 확인하세요.</p>
+  <p>로고와 상표는 각 회사의 소유입니다. · <a href="/feed.xml">RSS</a> · <a href="/data.json">JSON</a> · <a href="https://github.com/x0te/free-ai">GitHub</a></p>
+</footer>
+<script src="/app.js" defer></script>
+</body>
+</html>
